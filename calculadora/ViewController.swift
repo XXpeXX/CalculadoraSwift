@@ -1,32 +1,29 @@
-//
-//  ViewController.swift
-//  calculadora
-//
-//  Created by Apps2t on 25/09/2020.
-//  Copyright © 2020 Apps2t. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController, CalculadoraProtocol {
     func suma(num1: Int, num2: Int) -> Int {
-        return num1 + num2
+        let resultado = num1 + num2
+        return resultado
     }
     
     func resta(num1: Int, num2: Int) -> Int {
-        return num1 - num2
+        let resultado = num1 - num2
+        return resultado
     }
     
     func division(num1: Int, num2: Int) -> Int {
-        return num1 / num2
+        let resultado = num1 / num2
+        return resultado
     }
     
     func multiplicacion(num1: Int, num2: Int) -> Int {
-        return num1 * num2
+        let resultado = num1 * num2
+        return resultado
     }
     
     func modulo(num1: Int, num2: Int) -> Int {
-        return num1 % num2
+        let resultado = num1 % num2
+        return resultado
     }
     
 
