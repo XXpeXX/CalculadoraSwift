@@ -10,23 +10,23 @@ import UIKit
 
 class ViewController: UIViewController, CalculadoraProtocol {
     func suma(num1: Int, num2: Int) -> Int {
-        <#code#>
+        return num1 + num2
     }
     
     func resta(num1: Int, num2: Int) -> Int {
-        <#code#>
+        return num1 - num2
     }
     
     func division(num1: Int, num2: Int) -> Int {
-        <#code#>
+        return num1 / num2
     }
     
     func multiplicacion(num1: Int, num2: Int) -> Int {
-        <#code#>
+        return num1 * num2
     }
     
     func modulo(num1: Int, num2: Int) -> Int {
-        <#code#>
+        return num1 % num2
     }
     
 
